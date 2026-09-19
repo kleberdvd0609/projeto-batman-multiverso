@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesquisa de Satisfação</title>
+</head>
+<body>
+
+    <header>
+        <h1>Pesquisa do Multiverso Batman</h1>
+        <nav>
+            <a href="../Html_principal/Batmanproject.html">Voltar para a página principal</a>
+        </nav>
+        <hr>
+    </header>
+
+    <main>
+        <section>
+            <h2>Responda o questionário abaixo:</h2>
+            <p>Ajude a avaliar o nosso projeto escolhendo os seus favoritos.</p>
+
+            <form action="#" method="GET">
+                <label>Nome: </label>
+                <input type="text" name="Nome" placeholder="Digite seu nome" required><br><br>
+                <p><strong>1. Escolha o seu Batman favorito:</strong></p>
+                <input type="radio" id="bat1" name="batman" value="Adam West">
+                <label for="bat1">Batman (1966) - Adam West</label><br>
+                
+                <input type="radio" id="bat2" name="batman" value="Michael Keaton">
+                <label for="bat2">Batman (1989) - Michael Keaton</label><br>
+
+                <input type="radio" id="bat3" name="batman" value="George Clooney">
+                <label for="bat3">Batman (1997) - George Clooney</label><br>
+
+                <input type="radio" id="bat4" name="batman" value="Christian Bale">
+                <label for="bat4">Batman (2005) - Christian Bale</label><br>
+                <input type="radio" id="bat5" name="batman" value="Ben Affleck">
+                <label for="bat5">Batman (2016) - Ben Affleck</label><br>
+
+                <input type="radio" id="bat6" name="batman" value="Robert Pattinson">
+                <label for="bat6">Batman (2022) - Robert Pattinson</label><br>
+
+                <p><strong>2. Qual é o melhor vilão?</strong></p>
+                <select name="vilao" id="vilao">
+                    <option value="">Selecione um vilão...</option>
+                    <option value="Coringa">Coringa</option>
+                    <option value="Mulher-Gato">Mulher-Gato</option>
+                    <option value="Duas-Caras">Duas-Caras</option>
+                    <option value="Charada">Charada</option>
+                    <option value="Pinguim">Pinguim</option>
+                </select>
+
+                <p><strong>3. Que nota você dá para o site (0 a 10)?</strong></p>
+                <input type="number" id="nota" name="nota" min="0" max="10">
+
+                <p><strong>4. Deixe um comentário ou sugestão:</strong></p>
+                <textarea name="comentario" id="comentario" rows="4" cols="50" placeholder="Escreva aqui..."></textarea>
+                
+                <br><br>
+                
+                <!-- Botões clássicos de formulário -->
+                <input type="submit" value="Enviar Respostas">
+                <input type="reset" value="Limpar Formulário">
+                
+            </form>
+        </section>
+    </main>
+
+    <br>
+    
+    <footer>
+        <hr>
+        <p><small>&copy; 2026 WayneCorp | Projeto UNIPÊ.</small></p>
+        <address>Desenvolvido por: Kleber David.</address>
+    </footer>
+
+</body>
+</html>
