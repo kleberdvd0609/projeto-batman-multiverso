@@ -20,10 +20,15 @@ Para as subpáginas dos personagens, o código seguiu um esqueleto semântico ri
 * `<blockquote>` para citações clássicas dos filmes.
 
 ##  Formulário de Avaliação
-O projeto conta com um questionário de avaliação criado para demonstrar o domínio de formulários web. Estruturado com a tag `<form>`, ele permite a coleta de dados do usuário através de:
-* `<input>` e `<label>` para identificação e escolha do Batman favorito (via radio buttons).
-* `<select>` e `<option>` para o menu suspenso de escolha do vilão favorito.
-* `<input type="number">` para emissão de uma nota de 0 a 10 para o site.
+O projeto conta com um questionário de avaliação criado para demonstrar o domínio de formulários web avançados. Estruturado com a tag `<form>`, ele permite a coleta de dados do usuário através de:
+* `<input>` e `<label>` para identificação e escolha do Batman favorito (via radio buttons com o atributo `required`).
+* `<input list="lista-viloes">` e `<datalist>` para uma caixa de seleção inteligente do vilão favorito (com `placeholder`).
+* `<input type="range">` para emissão visual de uma nota de 0 a 10 para o site.
+* `<textarea>` para envio de comentários e sugestões.## 📝 Formulário de Avaliação
+O projeto conta com um questionário de avaliação criado para demonstrar o domínio de formulários web avançados. Estruturado com a tag `<form>`, ele permite a coleta de dados do usuário através de:
+* `<input>` e `<label>` para identificação e escolha do Batman favorito (via radio buttons com o atributo `required`).
+* `<input list="lista-viloes">` e `<datalist>` para uma caixa de seleção inteligente do vilão favorito (com `placeholder`).
+* `<input type="range">` para emissão visual de uma nota de 0 a 10 para o site.
 * `<textarea>` para envio de comentários e sugestões.
 
 ## Autoria
